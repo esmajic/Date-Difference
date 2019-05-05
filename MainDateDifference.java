@@ -23,7 +23,7 @@ public class MainDateDifference {
 			Date newDate2 = dateFormat.parse(date2);
 			System.out.println(newDate2);
 			
-			System.out.println(DateDifference.getDateDiff(newDate1, newDate2, TimeUnit.DAYS) + " days.");
+			System.out.println("Difference between dates is " + DateDifference.getDateDiff(newDate1, newDate2, TimeUnit.DAYS) + " days.");
 			
 		} catch (ParseException e) {
 			
