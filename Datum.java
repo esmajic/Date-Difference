@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Datum {
 
@@ -28,6 +29,13 @@ public class Datum {
 	@Override
 	public String toString() {
 		return "Date [date1=" + date1 + ", date2=" + date2 + "]";
+	}
+	
+	public void printList(ArrayList<Datum> date) {
+		System.out.println("List of dates:  ");
+		for(int i = 0; i < date.size(); i++) {
+			System.out.println(date.get(i) + " ");
+		}
 	}
 	
 	
